@@ -14,7 +14,9 @@ class CreatePostsTest extends FeatureTestCase
 		$this->seeInDatabase('posts', [
 			'title' => 'Esta es una pregunta',
 			'content' => 'Este es el contenido',
-			'pending' => true
+			'pending' => true,
+			'user_id' => $user->id,
+			'slug' => 'esta-es-una-pregunta',
 		]);
 
 		$this->see('Esta es una pregunta');

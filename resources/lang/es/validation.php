@@ -129,6 +129,7 @@ return [
         'password_confirmation' => 'confirmación de la contraseña',
         'city'                  => 'ciudad',
         'country'               => 'país',
+        'comment'               => 'comentario',
         'address'               => 'dirección',
         'phone'                 => 'teléfono',
         'mobile'                => 'móvil',
